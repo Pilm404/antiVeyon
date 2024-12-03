@@ -149,8 +149,7 @@ int main() {
     while (true) {
         cout << endl << endl << "Please select the action number:" << endl;
         cout << "1. Stop or restart Veyon service" << endl;
-        cout << "2. Start or stop module" << endl;
-        cout << "3. or quit for exit" << endl;
+        cout << "2. or quit for exit" << endl;
         cin >> commmand;
 
         if (commmand == "3" || commmand == "quit" || commmand == "q" || commmand == "Q" || commmand == "Quit") {
@@ -158,8 +157,6 @@ int main() {
         } else if (commmand == "1") {
             cout << "Are you really want to stop Veyon Master?" << endl;
             stopVeyonServise(serviceName);
-        } else if (commmand == "2") {
-            cout << "Are you really want to start Veyon Master?" << endl;
         } else {
             cout << "Invalid command. Please try again." << endl;
         }
