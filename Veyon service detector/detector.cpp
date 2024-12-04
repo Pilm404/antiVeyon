@@ -8,7 +8,6 @@
 #pragma comment(lib, "Ws2_32.lib")
 #pragma comment(lib, "Iphlpapi.lib")
 
-
 const std::vector<int> VEYON_PORTS = {11100, 11200, 11300};
 const int SCAN_TIMEOUT = 1;
 
